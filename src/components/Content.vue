@@ -76,21 +76,15 @@ export default {
         posts: [
           {
             title: "Formazione",
-            content: "Nata dall'infanzia, la passione verso il mondo digitale e dell'\informatica, dopo vari step lavorativi fuori dal settore e la perdita definitiva del lavoro, dal 2015 tramite il Corso di Formazione Professionale per l\'ottenimento della qualifica di Tecnico Specialista in Applicazioni Informatiche per Piccole e Medie Imprese, indetto dal T.U.C.E.P. in Perugia nello stesso anno, ho maturato nuove ed importanti conoscenze verso gli aspetti primari relativi a creare applicazioni in rete in base alle esigenze del cliente, che può essere tradotto nella creazione di siti web ed applicazioni web in generale. Per lo sviluppo di blog e siti web ho approfondito la conoscenza e l'utilizzo del CMS Wordpress.",
-            	// class: 'white--text green lighten-2',
-            imgUrl: ''
+            content: "Ho sempre espresso la passione verso il mondo digitale e dell'\informatica dall'\infanzia e sebbene non abbia ottenuto a livello universitario alcuna Laurea, la passione, la dedizione e l'\impegno verso il settore non è mai cessato, finchè, dopo vari step lavorativi fuori dal settore e la perdita definitiva dell'\occupazione, dal 2015 tramite il Corso di Formazione Professionale per l\'ottenimento della qualifica di Tecnico Specialista in Applicazioni Informatiche per Piccole e Medie Imprese, indetto dal T.U.C.E.P. in Perugia nello stesso anno, ho maturato nuove ed importanti conoscenze verso gli aspetti primari relativi a creare applicazioni in rete in base, commisurate alle esigenze del cliente, il che può essere tradotto nella creazione di siti web ed applicazioni web in generale con linguaggi e strumenti di sviluppo Open Source. Per lo sviluppo di blog e siti web ho approfondito la conoscenza e l'utilizzo del CMS Wordpress (Php / MySql / Apache) mentre da qualche tempo ho iniziato ad approfondire in particolar modo lo studio del linguaggio di scripting JavaScript."            	
           },
           {
             title: 'Conoscenze',
             content: 'Principali linguaggi',
-            // class: 'white--text orange lighten-2',
-            imgUrl: ''
           },
           {
             title: 'Portfolio',
             content: 'Lavori attivi e progetti: ',
-            imgUrl: '',
-            // class: 'white--text red lighten-2'
           }
         ]
 		}
