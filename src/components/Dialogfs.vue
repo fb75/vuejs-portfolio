@@ -9,23 +9,23 @@
           <v-btn icon @click.native="dialog = false" dark>
             <v-icon>fa-close</v-icon>
           </v-btn>
-          <v-toolbar-title>Ultimi articoli da Washington Post</v-toolbar-title>
+          <v-toolbar-title>Washington Post</v-toolbar-title>
           <v-spacer></v-spacer>
         </v-toolbar>
         <v-card>
-          <v-container fluid grid-list-xl class="blue lighten-4">
-            <v-layout row wrap>
+          <v-container grid-list-lg fluid class="blue lighten-4">
+            <v-layout justify-space-around row wrap>
               <v-flex
-                xs3
-                class=""
+                xs10 md3
+                class="mb-2 mt-2 ml-2 mr-2"
                 v-for="(article, i) in articles"
-                :key="i">
+                :key="i"> 
                 <v-card>
                   <v-card-media                  
                     :src="article.urlToImage"
                     height="250px">
                   </v-card-media>
-                  <v-container fluid>
+                  <v-container grid-list-lg text-xs-center fluid>
                     <v-layout fill-height>
                         <v-flex xs12 align-end flexbox>
                         <p class="headline">{{article.title}}</p><br>
